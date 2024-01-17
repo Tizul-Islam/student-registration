@@ -1,0 +1,46 @@
+.header{
+
+background-color:rgb(185, 173, 179);
+padding: 20px;
+text-align: center;
+
+
+    
+
+}
+ul{
+
+background-color: rgb(10, 10, 10);
+list-style: lower-roman;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+li{
+
+float: left;
+
+
+}
+li a{
+
+    color: white;
+    padding: 10px 15px;
+
+    text-decoration: none;
+    display: block;
+
+
+}
+
+li a:hover :not(.active){
+
+background-color: rgb(186, 46, 199);}
+  .active{
+
+    background-color: green;
+}
+
+
+
